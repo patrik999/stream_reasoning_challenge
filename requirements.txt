@@ -1,7 +1,9 @@
-Flask==2.0.3
+Flask==2.2.5
 PyYAML==5.3
 websocket-server==0.4
 websocket-client~=1.2.1
 requests~=2.26.0
 rdflib~=5.0.0
 pytz~=2021.1
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
